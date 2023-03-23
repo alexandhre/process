@@ -32,6 +32,11 @@ app.use(function(req, res, next) {
   next(err);
 });
 
+app.use((req, res, next) => {
+  res.set('Cache-Control', 'no-store')
+  next()
+})
+
 // error handlers
 
 // development error handler

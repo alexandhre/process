@@ -6,13 +6,19 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
+    "apify": "^3.1.2",
     "body-parser": "1.20.1",
     "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
     "debug": "~4.1.1",
     "express": "^4.18.2",
+    "moment": "^2.29.4",
     "morgan": "~1.9.1",
+    "node-html-parser": "^6.1.4",
     "nodemon": "^2.0.2",
     "pug": "^3.0.2",
-    "serve-favicon": "~2.5.0"
+    "puppeteer": "^19.7.1",
+    "serve-favicon": "~2.5.0",
+    "set-cookie-parser": "^2.5.1"
   }
 }
